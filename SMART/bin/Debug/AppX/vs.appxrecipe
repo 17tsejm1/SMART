@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>17-0W7N-17TSEJM</Machine>
+    <WindowsUser>17tsejm1</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>SMART</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>596CA033EC3C6B928BC17EF5A1B5300DA0FA01D93EDDB4EA94BBA3AC7419F719</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>SMART_1.0.0.0_neutral__0f14xjdnxbrm2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>SMART_0f14xjdnxbrm2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>SMART</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jordan Tse</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-29T09:20:31.941</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\bin\Debug\SMART.exe">
+      <PackagePath>SMART.exe</PackagePath>
+      <Modified>2015-09-29T09:22:44.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-28T23:49:13.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-28T23:50:14.283</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-28T23:51:00.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-28T23:51:42.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-16T07:03:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-28T23:52:29.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\bin\Debug\SMART.xr.xml">
+      <PackagePath>SMART.xr.xml</PackagePath>
+      <Modified>2015-09-29T08:55:37.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-09-29T09:20:31.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-09-29T09:22:44.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\17tsejm1.STC\Desktop\SMART - Master\SMART\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-09-29T09:20:31.839</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

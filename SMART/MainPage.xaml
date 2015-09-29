@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="SMART.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SMART"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	RequestedTheme="Light"
+    mc:Ignorable="d">
+	<Page.TopAppBar>
+		<AppBar x:Name="appBar" Background="#ffffff">
+			<StackPanel Orientation="Horizontal">
+				<AppBarButton Foreground="Black" Icon="Home" Label="Home" x:Name="homeButton" Click="HomeButton_OnClick"/>
+                <AppBarButton Foreground="Black" Icon="Mail" Label="Mail" x:Name="mailButton" Click="MailButton_OnClick"/>
+                <AppBarButton Foreground="Black" Icon="Folder" Label="Drive" x:Name="driveButton" Click="DriveButton_OnClick"/>
+                <AppBarButton Foreground="Black" Icon="PreviewLink" Label="Sites" x:Name="sitesButton" Click="SitesButton_OnClick"/>
+                <AppBarButton Foreground="Black" Icon="Calendar" Label="Calendar" x:Name="calendarButton" Click="CalendarButton_OnClick"/>
+            </StackPanel>
+		</AppBar>
+	</Page.TopAppBar>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<WebView x:Name="SMARTWeb" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></WebView>
+    </Grid>
+</Page>
